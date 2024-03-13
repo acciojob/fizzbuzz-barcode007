@@ -1,5 +1,5 @@
 let fizzbuzz =functon (){
-	for(let a=1;a<=100;a++){
+	for(let a=1;a<=20;a++){
 	if(a%3==0){
 		alert("fizz")
 	}
