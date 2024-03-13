@@ -1,7 +1,7 @@
 let fizzbuzz= function (){
 	let output=''
-	for(i=1;i<=20;i++){
-		else if(i%3==0){
+	for(let i=1;i<=20;i++){
+		if(i%3==0){
 			output+="fizz\n"
 		}
 		else if(i%5==0)
@@ -15,11 +15,9 @@ let fizzbuzz= function (){
 		else{
 			output+=i+"\n"
 		}
-		
-		
 	}
+    alert(output)
 	
 }
-
 
 fizzbuzz();
