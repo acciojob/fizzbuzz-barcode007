@@ -1,15 +1,25 @@
-let fizzbuzz =functon (){
-	for(let a=1;a<=20;a++){
-	if(a%3==0){
-		alert("fizz")
+let fizzbuzz= function (){
+	let output=''
+	for(i=1;i<=20;i++){
+		else if(i%3==0){
+			output+="fizz\n"
+		}
+		else if(i%5==0)
+		{
+			output+="buzz\n"
+		}
+		else if(i%15==0){
+			output+="fizzbuzz\n"
+		}
+
+		else{
+			output+=i+"\n"
+		}
+		
+		
 	}
-	else if(a%5==0){
-		alert("buzz")
-	}
-	elseif(a%15==0){
-		alert("fizzbuzz")
-	}
+	
 }
-}
+
 
 fizzbuzz();
